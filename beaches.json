@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Pipeline",
+    "country": "USA",
+    "lat": 21.6654,
+    "lng": -158.0519
+  },
+  {
+    "name": "Teahupo'o",
+    "country": "Tahiti",
+    "lat": -17.8492,
+    "lng": -149.2667
+  },
+  {
+    "name": "Jeffreys Bay",
+    "country": "South Africa",
+    "lat": -34.0507,
+    "lng": 24.9281
+  },
+  {
+    "name": "Uluwatu",
+    "country": "Indonesia",
+    "lat": -8.8151,
+    "lng": 115.0886
+  },
+  {
+    "name": "Superbank",
+    "country": "Australia",
+    "lat": -28.1634,
+    "lng": 153.5507
+  },
+  {
+    "name": "Nazaré",
+    "country": "Portugal",
+    "lat": 39.6079,
+    "lng": -9.0868
+  },
+  {
+    "name": "Mavericks",
+    "country": "USA",
+    "lat": 37.4957,
+    "lng": -122.4989
+  },
+  {
+    "name": "Cloudbreak",
+    "country": "Fiji",
+    "lat": -17.8858,
+    "lng": 177.1996
+  },
+  {
+    "name": "Banzai Pipeline",
+    "country": "USA",
+    "lat": 21.6654,
+    "lng": -158.0519
+  },
+  {
+    "name": "Bells Beach",
+    "country": "Australia",
+    "lat": -38.3704,
+    "lng": 144.2848
+  },
+  {
+    "name": "Mundaka",
+    "country": "Spain",
+    "lat": 43.4064,
+    "lng": -2.6981
+  },
+  {
+    "name": "Trestles",
+    "country": "USA",
+    "lat": 33.3853,
+    "lng": -117.5939
+  },
+  {
+    "name": "Hossegor",
+    "country": "France",
+    "lat": 43.6634,
+    "lng": -1.4336
+  },
+  {
+    "name": "Mentawai Islands",
+    "country": "Indonesia",
+    "lat": -1.9931,
+    "lng": 99.6048
+  },
+  {
+    "name": "Skeleton Bay",
+    "country": "Namibia",
+    "lat": -22.6833,
+    "lng": 14.5333
+  },
+  {
+    "name": "San Sebastian - La Zurriola",
+    "country": "Spain",
+    "lat": 43.3251,
+    "lng": -1.9760
+  },
+  {
+    "name": "Playa Hermosa",
+    "country": "Costa Rica",
+    "lat": 9.1633,
+    "lng": -83.7569
+  },
+  {
+    "name": "Tamarindo",
+    "country": "Costa Rica",
+    "lat": 10.2993,
+    "lng": -85.8371
+  },
+  {
+    "name": "Witch's Rock",
+    "country": "Costa Rica",
+    "lat": 10.8429,
+    "lng": -85.7126
+  },
+  {
+    "name": "Pavones",
+    "country": "Costa Rica",
+    "lat": 8.4047,
+    "lng": -83.1193
+  },
+  {
+    "name": "Jaco Beach",
+    "country": "Costa Rica",
+    "lat": 9.6117,
+    "lng": -84.6270
+  },
+  {
+    "name": "Nosara",
+    "country": "Costa Rica",
+    "lat": 9.9765,
+    "lng": -85.6532
+  },
+  {
+    "name": "Tel Aviv - Gordon Beach",
+    "country": "Israel",
+    "lat": 32.0853,
+    "lng": 34.7818
+  },
+  {
+    "name": "Herzliya - Acadia Beach",
+    "country": "Israel",
+    "lat": 32.1719,
+    "lng": 34.7983
+  },
+  {
+    "name": "Haifa - Dado Beach",
+    "country": "Israel",
+    "lat": 32.8304,
+    "lng": 34.9557
+  },
+  {
+    "name": "Netanya - Poleg Beach",
+    "country": "Israel",
+    "lat": 32.2757,
+    "lng": 34.8508
+  },
+  {
+    "name": "Ashkelon - Delilah Beach",
+    "country": "Israel",
+    "lat": 31.6647,
+    "lng": 34.5544
+  },
+  {
+    "name": "Caesarea Beach",
+    "country": "Israel",
+    "lat": 32.5050,
+    "lng": 34.8912
+  },
+  {
+    "name": "Bat Yam - Hof Hasela",
+    "country": "Israel",
+    "lat": 32.0171,
+    "lng": 34.7361
+  },
+  {
+    "name": "Ashdod - Lido Beach",
+    "country": "Israel",
+    "lat": 31.7992,
+    "lng": 34.6365
+  },
+  {
+    "name": "Eilat - Mosh Beach",
+    "country": "Israel",
+    "lat": 29.5469,
+    "lng": 34.9553
+  },
+  {
+    "name": "Hilton Beach",
+    "country": "Israel",
+    "lat": 32.0907,
+    "lng": 34.7732
+  },
+  {
+    "name": "Beit Yanai Beach",
+    "country": "Israel",
+    "lat": 32.3814,
+    "lng": 34.8629
+  },
+  {
+    "name": "Palmachim Beach",
+    "country": "Israel",
+    "lat": 31.9283,
+    "lng": 34.6989
+  },
+  {
+    "name": "Ga'ash Beach",
+    "country": "Israel",
+    "lat": 32.2244,
+    "lng": 34.8327
+  },
+  {
+    "name": "Sdot Yam Beach",
+    "country": "Israel",
+    "lat": 32.4898,
+    "lng": 34.8899
+  },
+  {
+    "name": "Dor HaBonim Beach",
+    "country": "Israel",
+    "lat": 32.6139,
+    "lng": 34.9227
+  }
+]

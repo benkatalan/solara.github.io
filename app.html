@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surfly.io 🏄‍♂️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <h1 id="logo">Surfly.io</h1>
+            </div>
+            <div class="header-controls">
+                <div class="hamburger-menu">
+                    <button id="menuToggle">
+                        <i data-lucide="menu" class="menu-icon"></i>
+                    </button>
+                    <nav id="menu" class="hidden">
+                        <ul>
+                            <li><a href="app.html" id="homeLink">Home</a></li>
+                            <li><a href="about.html" id="aboutLink">About</a></li>
+                            <li><a href="#" id="contactLink">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="language-selector">
+                    <button id="langToggle">
+                        <img src="https://flagcdn.com/w20/gb.png" alt="English" id="currentFlag">
+                        <i data-lucide="chevron-down" class="dropdown-icon"></i>
+                    </button>
+                    <div class="language-dropdown hidden">
+                        <div class="language-option" data-lang="en">
+                            <img src="https://flagcdn.com/w20/gb.png" alt="English">
+                            <span>English</span>
+                        </div>
+                        <div class="language-option" data-lang="he">
+                            <img src="https://flagcdn.com/w20/il.png" alt="Hebrew">
+                            <span>עברית</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="info-section">
+            <h2>Surf News & Tips</h2>
+            <div id="surfNews">
+                <!-- News items will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <div class="search-container">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="beachSearch" placeholder="Search for a beach">
+            <i data-lucide="chevron-down" class="dropdown-icon"></i>
+            <ul id="beachList" class="hidden"></ul>
+        </div>
+
+        <div id="errorMessage" class="hidden"></div>
+
+        <div id="currentConditions" class="grid hidden">
+            <div class="card" data-type="waveHeight">
+                <i data-lucide="waves" class="icon"></i>
+                <h3>Wave Height</h3>
+                <div id="waveHeight" class="data"></div>
+            </div>
+            <div class="card" data-type="wind">
+                <i data-lucide="wind" class="icon"></i>
+                <h3>Wind</h3>
+                <div id="windSpeed" class="data"></div>
+                <div id="windDirection" class="subdata"></div>
+            </div>
+            <div class="card" data-type="airTemp">
+                <i data-lucide="thermometer" class="icon"></i>
+                <h3>Air Temp</h3>
+                <div id="airTemp" class="data"></div>
+            </div>
+            <div class="card" data-type="waterTemp">
+                <i data-lucide="droplets" class="icon"></i>
+                <h3>Water Temp</h3>
+                <div id="waterTemp" class="data"></div>
+            </div>
+        </div>
+
+        <h2 id="forecastTitle" class="hidden">Weekly Forecast</h2>
+        <div id="forecast" class="forecast-grid hidden"></div>
+    </div>
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <h3 id="popupTitle"></h3>
+            <p id="popupDescription"></p>
+            <div id="popupDetails"></div>
+            <button id="popupClose">Got it!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

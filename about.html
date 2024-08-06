@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Surfly.io 🏄‍♂️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+            background-color: #06252a;
+            color: #ffffff;
+        }
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50vh;
+            background-image: url('images/surfer.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .hamburger-menu {
+            position: relative;
+        }
+        #menuToggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .menu-icon {
+            width: 24px;
+            height: 24px;
+            color: #ffffff;
+        }
+        #menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #06252a;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            display: none;
+        }
+        #menu.visible {
+            display: block;
+        }
+        #menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #menu ul li {
+            padding: 10px 20px;
+        }
+        #menu ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        main {
+            background-color: rgba(6, 37, 42, 0.8);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30vh;
+        }
+        h1, h2 {
+            color: #00a0e4;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .feature-list {
+            padding-left: 20px;
+        }
+        .feature-list li {
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+        }
+        .social-icons svg {
+            width: 24px;
+            height: 24px;
+            color: #ffffff;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #00a0e4;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <header>
+            <h1 id="logo">Surfly.io</h1>
+            <div class="hamburger-menu">
+                <button id="menuToggle">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                </button>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="app.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1>About Surfly.io</h1>
+            <p>Welcome to Surfly.io, your ultimate companion for catching the perfect wave! We're passionate surfers who understand the importance of accurate, real-time surf forecasts.</p>
+
+            <h2>Our Mission</h2>
+            <p>At Surfly.io, we're on a mission to provide surfers worldwide with the most accurate and up-to-date surf forecasts. Whether you're a beginner or a pro, we've got you covered with detailed information on wave heights, wind conditions, and water temperatures.</p>
+
+            <h2>Data That Makes a Difference</h2>
+            <p>We source our data from world-renowned meteorological services and oceanographic institutes. Our primary data provider is World Weather Online, known for its high-quality marine weather data. We complement this with local reports and satellite imagery to ensure you get the most accurate forecast possible.</p>
+
+            <h2>Features</h2>
+            <ul class="feature-list">
+                <li>Real-time surf forecasts for beaches worldwide</li>
+                <li>Detailed information on wave height, wind speed and direction, and water temperature</li>
+                <li>7-day forecast to help you plan your surf sessions</li>
+                <li>User-friendly interface designed for quick and easy access to information</li>
+                <li>Customizable alerts for your favorite surf spots</li>
+            </ul>
+
+            <h2>Join the Surfly.io Community</h2>
+            <p>Surfly.io is more than just an app - it's a community of surf enthusiasts. Join us in our quest for the perfect wave, share your experiences, and connect with fellow surfers around the globe.</p>
+
+            <p>Stay tuned for exciting new features coming soon, including user-generated surf reports, a social platform for surfers, and integration with surf cam feeds!</p>
+
+            <a href="app.html" class="cta-button">Start Surfing Now!</a>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                <a href="#" aria-label="TikTok"><i data-lucide="music"></i></a>
+            </div>
+        </main>
+    </div>
+    <script>
+        lucide.createIcons();
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menuToggle');
+            const menu = document.getElementById('menu');
+
+            menuToggle.addEventListener('click', () => {
+                menu.classList.toggle('visible');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!menuToggle.contains(e.target) && !menu.contains(e.target)) {
+                    menu.classList.remove('visible');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
